@@ -1,3 +1,5 @@
+#ifndef PSYSLOG_H
+#define PSYSLOG_H
 #include <application.h>
 
 #ifndef SYSLOG_SOURCE_PORT
@@ -45,4 +47,5 @@ enum {
 #define LOGN(fmt, ...) 
 #define LOGI(fmt, ...) 
 #define LOGD(fmt, ...) 
+#endif
 #endif
